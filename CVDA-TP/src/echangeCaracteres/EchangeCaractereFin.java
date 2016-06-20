@@ -16,7 +16,9 @@ public class EchangeCaractereFin {
         
         if(s.length()>1){
             if(s.length()>2){
+                System.out.println(s.substring(0, s.length()-2)+s.charAt(s.length()-1)+s.charAt(s.length()-2));
                 return s.substring(0, s.length()-2)+s.charAt(s.length()-1)+s.charAt(s.length()-2);}
+            System.out.println(""+s.charAt(s.length()-1)+s.charAt(s.length()-2));
             return ""+s.charAt(s.length()-1)+s.charAt(s.length()-2);
         }
         else return s;

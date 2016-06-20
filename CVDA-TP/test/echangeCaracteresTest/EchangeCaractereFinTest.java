@@ -40,10 +40,10 @@ public class EchangeCaractereFinTest {
     
     @Test
     public void echange2DernierCar(){
-        String exp = "abc";
+        String exp = "cba";
         String s;
         
-        s = EchangeCaractereFin.echange2DernierCar(exp);
+        s = EchangeCaractereFin.echange2DernierCar("cab");
         
         assertEquals(exp, s);
     }
